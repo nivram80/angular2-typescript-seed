@@ -1,0 +1,27 @@
+.main-header-content {
+  height: 55px;
+  padding: 0 25px;
+  background: $main-header-bg-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 50%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 50%;
+
+    div {
+      margin-left: 30px;
+    }
+  }
+}

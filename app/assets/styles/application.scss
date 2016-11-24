@@ -1,3 +1,21 @@
+@import "colors";
+@import 'settings';
+
 body {
-  background: url('../images/close_up_2700.jpg') center / cover no-repeat;
+  margin: 0;
+  padding: 0;
+  background: url('../images/close_up_2700.jpg') center -50px / cover no-repeat;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: $main-font-color;
+}
+
+h1, h2, h3, h4 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.75rem;
 }
