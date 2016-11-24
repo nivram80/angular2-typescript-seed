@@ -1,3 +1,16 @@
+button {
+  background-color: #166516;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  padding: 10px 15px;
+  transition: all 0.4s ease-out; }
+  button:hover {
+    cursor: pointer;
+    background-color: #0d3c0d; }
+
 .main-header-content {
   height: 55px;
   padding: 0 25px;
@@ -23,16 +36,24 @@ body {
   margin: 0;
   padding: 0;
   background: url("../images/close_up_2700.jpg") center -50px/cover no-repeat;
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 16px;
   color: white; }
 
 h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0; }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 2.75rem; }
+
+a {
+  transition: all 0.4s ease-out; }
+  a:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.75); }
 
 /*# sourceMappingURL=application.css.map */

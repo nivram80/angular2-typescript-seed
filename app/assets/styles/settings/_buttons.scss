@@ -1,0 +1,15 @@
+button {
+  background-color: $primary-color;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: $sans-serif-font;
+  color: $main-font-color;
+  padding: 10px 15px;
+  @include normal-transition;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $primary-hover-color;
+  }
+}

@@ -5,4 +5,6 @@
 *.js.map
 app/*.js
 app/*/*.js
+*.css
+*.css.map
 .DS_Store
