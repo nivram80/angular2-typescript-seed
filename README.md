@@ -1,1 +1,1 @@
-# angular2-typescript-seed# mlb-stats
+# angular2-typescript-seed
