@@ -1,7 +1,6 @@
 .main-header-content {
   height: 55px;
   padding: 0 25px;
-  background: $main-header-bg-color;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,7 +10,9 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-basis: 50%;
-
+    color: $primary-font-color;
+    font-family: $cursive-font;
+    background: url('/app/assets/images/todd_nichols_logo.svg') left center / 40px 40px no-repeat;
   }
 
   nav {
