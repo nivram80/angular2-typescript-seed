@@ -1,0 +1,25 @@
+home {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+
+.placeholder {
+  flex-basis: 70%;
+}
+
+.motto {
+  flex-basis: 30%;
+  margin-left: 10%;
+
+  .my-name {
+    padding: 10px 20px;
+  }
+
+  .motto-text {
+    padding: 10px 20px;
+    display: inline-block;
+    background: $primary-action-color;
+  }
+}
