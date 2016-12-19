@@ -14,11 +14,17 @@
     flex-basis: 50%;
     color: $primary-font-color;
     font-family: $cursive-font;
-    background: url('/app/assets/images/todd_nichols_logo_white.svg') left center / 40px 40px no-repeat;
 
-    &:hover {
-      cursor: pointer;
+    .logo {
+      width: 50px;
+      height: 50px;
+      background: url('/app/assets/images/todd_nichols_logo_white.svg') left center / 40px 40px no-repeat;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
+
   }
 
   nav {
