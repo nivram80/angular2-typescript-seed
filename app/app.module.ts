@@ -4,12 +4,14 @@ import { AppRoutingModule } from "./app.routes";
 import { AppComponent }  from './app.component';
 import { MainHeaderComponent } from "./main-header/main-header.component";
 import { HomeModule } from "./home/home.module";
+import { SkillsModule } from "./skills/skills.module";
 
 @NgModule({
     imports: [
         BrowserModule,
         AppRoutingModule,
-        HomeModule
+        HomeModule,
+        SkillsModule
     ],
     declarations: [
         AppComponent,

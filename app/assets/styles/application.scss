@@ -22,6 +22,8 @@ h1 {
 
 a {
   @include normal-transition;
+  text-decoration: none;
+  color: $primary-link-color;
 
   &:hover {
     cursor: pointer;
